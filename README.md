@@ -1,17 +1,16 @@
 # AgroTrack
 
-Aplicação acadêmica para organizar talhões e ocorrências agrícolas. O projeto usa React/Vite no frontend, Java 21 com Spring Boot no backend e MongoDB para persistência. O assistente consulta os registros e usa OpenRouter para gerar respostas.
+Aplicação acadêmica de gestão agrícola com interface React/Vite, API Java/Spring Boot, persistência MongoDB e assistente OpenRouter.
 
-## Requisitos
+## Conteúdo
 
-- Node.js e npm
-- Java 21
-- Acesso a uma instância MongoDB
-- Chave OpenRouter para habilitar o assistente (opcional para o CRUD)
+O repositório inclui os códigos-fonte e também os documentos, arquivos de build e dependências locais que estavam na pasta do projeto quando ele foi publicado. Credenciais e arquivos locais de ambiente não são incluídos.
 
-## Configuração do backend
+## Executar
 
-Na pasta `agrotrack`, defina `MONGODB_URI` no ambiente. Para usar o assistente, defina também `OPENROUTER_API_KEY`. Não coloque esses valores nos arquivos do projeto.
+Pré-requisitos: Node.js/npm, Java 21 e uma conexão MongoDB.
+
+No terminal do backend, configure as variáveis de ambiente sem gravar os valores nos arquivos do projeto:
 
 ```bash
 cd agrotrack
@@ -20,22 +19,19 @@ export OPENROUTER_API_KEY='<sua-chave>'
 ./mvnw spring-boot:run
 ```
 
-## Configuração do frontend
-
-Em outro terminal:
+Em outro terminal, inicie o frontend:
 
 ```bash
 cd frontend
-npm install
 npm run dev
 ```
 
-Abra o endereço local exibido pelo Vite (normalmente `http://localhost:5173`). O backend atende em `http://localhost:8080`.
+Abra o endereço local informado pelo Vite, normalmente `http://localhost:5173`. O backend atende na porta `8080`.
 
-## Recursos
+## Funcionalidades
 
-- Cadastro, consulta, edição e exclusão de ocorrências e talhões.
-- Indicadores e relatórios calculados a partir dos registros.
-- Assistente de consulta aos dados, sem alterar documentos do banco.
+- Cadastro, consulta, edição e exclusão de talhões e ocorrências.
+- Indicadores e relatórios calculados com base nos registros.
+- Assistente que consulta os registros e não altera o banco.
 
-O painel contém indicadores demonstrativos onde ainda não há integração com dados externos. As respostas de manejo do assistente são apoio informativo e devem ser validadas por profissional habilitado.
+Os dados do painel que não vêm dos registros estão identificados como demonstrativos. Sugestões do assistente são informativas e devem ser validadas por profissional habilitado.

@@ -1,0 +1,11 @@
+/home/maria/Documentos/AgroTrack/agrotrack/src/main/java/br/com/agrotrack/AgrotrackApplication.java
+/home/maria/Documentos/AgroTrack/agrotrack/src/main/java/br/com/agrotrack/agrotrack/controller/AssistenteController.java
+/home/maria/Documentos/AgroTrack/agrotrack/src/main/java/br/com/agrotrack/agrotrack/controller/OcorrenciaController.java
+/home/maria/Documentos/AgroTrack/agrotrack/src/main/java/br/com/agrotrack/agrotrack/controller/TalhaoController.java
+/home/maria/Documentos/AgroTrack/agrotrack/src/main/java/br/com/agrotrack/agrotrack/model/AssistentePergunta.java
+/home/maria/Documentos/AgroTrack/agrotrack/src/main/java/br/com/agrotrack/agrotrack/model/AssistenteResposta.java
+/home/maria/Documentos/AgroTrack/agrotrack/src/main/java/br/com/agrotrack/agrotrack/model/Ocorrencia.java
+/home/maria/Documentos/AgroTrack/agrotrack/src/main/java/br/com/agrotrack/agrotrack/model/Talhao.java
+/home/maria/Documentos/AgroTrack/agrotrack/src/main/java/br/com/agrotrack/agrotrack/repository/OcorrenciaRepository.java
+/home/maria/Documentos/AgroTrack/agrotrack/src/main/java/br/com/agrotrack/agrotrack/repository/TalhaoRepository.java
+/home/maria/Documentos/AgroTrack/agrotrack/src/main/java/br/com/agrotrack/agrotrack/service/AssistenteService.java

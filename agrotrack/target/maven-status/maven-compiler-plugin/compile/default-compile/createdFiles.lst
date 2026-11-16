@@ -1,0 +1,13 @@
+br/com/agrotrack/agrotrack/service/AssistenteService$AssistenteIndisponivelException.class
+br/com/agrotrack/agrotrack/repository/TalhaoRepository.class
+br/com/agrotrack/agrotrack/controller/TalhaoController.class
+br/com/agrotrack/agrotrack/model/Ocorrencia.class
+br/com/agrotrack/agrotrack/controller/AssistenteController$Erro.class
+br/com/agrotrack/agrotrack/model/AssistenteResposta.class
+br/com/agrotrack/agrotrack/model/Talhao.class
+br/com/agrotrack/agrotrack/model/AssistentePergunta.class
+br/com/agrotrack/agrotrack/service/AssistenteService.class
+br/com/agrotrack/agrotrack/controller/OcorrenciaController.class
+br/com/agrotrack/agrotrack/controller/AssistenteController.class
+br/com/agrotrack/AgrotrackApplication.class
+br/com/agrotrack/agrotrack/repository/OcorrenciaRepository.class
